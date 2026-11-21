@@ -45,6 +45,7 @@ const projects = {
 } as const;
 
 export default function Portfolio({ locale }: { locale: Locale }) {
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
   const t = content[locale];
   const isFa = locale === 'fa';
   const reduceMotion = useReducedMotion();
