@@ -27,3 +27,5 @@ npm run dev
 - GitHub Pages serves static files only. This build uses Next.js `output: 'export'`; server-only features and API routes are not supported.
 - Next Image optimization is disabled for static hosting.
 - Do not commit secrets or private environment files.
+
+https://Abolfazldh289.github.io/Abolfazl-portfolio/
